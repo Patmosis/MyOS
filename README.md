@@ -21,7 +21,7 @@ First trial of a bootable program
 * **Boot program**
 
   * *Make ISO image*
-   - `mkisofs -o myOS.iso -b myOS.flp /`
+   - `mkisofs -o myOS.iso -b myOS.flp ./`
 
   * *Burn ISO on floppy disk, CD or USB drive and boot*
 
