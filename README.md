@@ -29,4 +29,4 @@ First trial of a bootable program
 
 	* *This project aims at developping a very basic Operating System using the x86 assembly language, NASM and BIOS interrupts.*
 
-	* *Tutorial used to start this project can be found [a here](http://mikeos.sourceforge.net/write-your-own-os.html)*
+	* *Tutorial used to start this project can be found [here](http://mikeos.sourceforge.net/write-your-own-os.html)*
