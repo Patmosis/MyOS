@@ -125,14 +125,14 @@ initiate_answer:
 		jmp .repeat
 
 
-	.data:
-		welcome_message db 'Welcome on my OS.', 0
-		question db 'What do you want to do?', 0
-		you_want db 'So you want to: ', 0
+.data:
+	welcome_message db 'Welcome on my OS.', 0
+	question db 'What do you want to do?', 0
+	you_want db 'So you want to: ', 0
 
-	.bss:
-		answer times 50 db 0, 0
+.bss:
+	answer times 50 db 0, 0
 
 
-	times 510-($-$$) db 0		; Pad remainder of boot sector with zeros
-	dw 0xAA55								; The standard PC boot signature
+times 510-($-$$) db 0		; Pad remainder of boot sector with zeros
+dw 0xAA55								; The standard PC boot signature
